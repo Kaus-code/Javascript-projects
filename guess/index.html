@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Calculator</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <title>Simple Layout</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="calculator">
-    <input type="text" id="display" disabled />
-    <div class="buttons">
-      <!-- Add buttons here -->
-      <button>7</button><button>8</button><button>9</button><button>/</button>
-      <button>4</button><button>5</button><button>6</button><button>*</button>
-      <button>1</button><button>2</button><button>3</button><button>-</button>
-      <button>0</button><button>.</button><button>=</button><button>+</button>
-      <button>C</button>
+  <div class="container">
+    <h1>Guess the no. game</h1>
+
+    <input type="text" class="input-box" placeholder="Enter something...">
+    <p class="instruction">Guess the no. between 1 and 100</p>
+
+    <div class="button-group">
+      <button>Submit</button>
+      <button>Reset</button>
     </div>
+
+    <div class="output-box">Output will appear here...</div>
   </div>
   <script src="main.js"></script>
 </body>
